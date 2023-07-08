@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+.morePicture{
+    /* width: 270px; */
+    height: 365px;
+    /* width: min(50vw,250px); */
+    /* max-width: 250px; */
+    width: 100%;
+    
+}
+.morePicture:hover{
+    transition: all 0.9s ease-in-out;
+    /* transform:   matrix(2,0,0,2,0,0); */
+    transform: scale(1.2);
+    /* position: absolute; */
+    /* transition: width 2s, height 4s; */
+   
+    
+    /* transition: all 0.3s ease 0s; */
+    
+}
+/* .div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+p{
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
